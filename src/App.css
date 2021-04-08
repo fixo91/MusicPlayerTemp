@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  margin-bottom: 50px;
+}
+
+p {
+  margin-left: 20px;
+}
+
+.buttons {
+  background-image: linear-gradient(
+    180deg,
+    rgba(20, 20, 20, 0.5),
+    rgba(50, 58, 69, 0.5)
+  ), url(image/buttonbg.jpeg);
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  font-size: 25px;
+  font-style: initial;
+  color: rgb(255, 255, 255);
+  padding: 25px;
+  margin-bottom: 10px;
+  border-radius: 70px;
+}
+.buttons:hover {
+  
+  border: 3px solid #217aff;
+  box-shadow: 0 1px 70px rgba(0, 89, 255, 0.4);
+
+}
+
+.zoom {
+  transition: transform 0.2s;
+  width: 250px;
+  height: 80px;
+}
+.zoom:hover {
+  transform: scale(1.2);
+}
